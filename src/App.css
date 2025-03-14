@@ -1,0 +1,237 @@
+/*  ====================================================
+    START of React generated initial sample classes
+The following section, automatically created by React
+left purposely to credit its original author...  --CG
+*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+    END of React generated initial sample classes
+    =============================================
+*/
+
+
+/*  ====================================================
+    START StreamList APP classes...
+    ALL StreamList class prefix >> ".CGsl-" --2/26/25 CG
+*/
+.CGsl-container {
+  background-color: #0f1111;
+}
+
+.CGsl-body {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  min-height: 100%;
+  background-color: #00050d;
+  margin: 0;
+  }
+
+  .CGsl-paragraph {
+    background-color: royalblue;
+    font-family: NewTimesRoman;
+    border: 5px solid darkblue;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: max-content;
+    display: block;
+    display:inline-block;
+  }
+
+  .CGsl-button {
+    background-color: #0f1111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  /*
+    font-family: NewTimesRoman;
+  */
+    border: 5px solid darkblue;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: max-content;
+    display: block;
+    border: 1px solid #0f1111;
+    border-radius: 5%;
+  }
+  
+  .CGsl-button:hover {
+    border: 1px solid white;
+    border-radius: 5%;
+  }
+  /*  Dodger's BLUE!!! >> optional
+    background-color: royalblue; 
+  */
+
+/*
+    END of StreamList APP classes
+    =============================================
+*/
+
+
+.App-divcontainer {
+  border: 0;
+  color: white;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 16px;
+  margin: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.App-div {
+  background-color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  flex-basis: 500px;
+  
+  border: 2px solid black;
+  margin: 1px;
+  padding: 5px;
+ /* 
+  width: max-content;
+/*  
+  font-size: small;
+*/
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+
+.cg-paragraph {
+  
+  background-color: RoyalBlue;
+  font-family: NewTimesRoman;
+  border: 5px solid darkblue;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  width: max-content;
+  display: block;
+  display:inline-block;
+}
+
+.containerStyle {
+  background-color: #0f1111;
+  padding: '20px';
+  border-radius: '8px';
+  font-family: 'Arial, sans-serif';
+}
+
+.headingStyle {
+  color: '#333';
+  font-size: '24px';
+  margin-bottom: '10px';
+}
+
+.paragraphStyle {
+  color: '#666';
+  font-size: '16px';
+  line-height: '1.5';
+}
+
+.StreamList {
+  color: yellow;
+
+
+  }
+
+  /*
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0;
+  color: var(--__N4QdCheV6mGo,#0f1111);
+  min-width: var(--retail-page-min-width);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  cursor: default;
+  font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;
+  min-height: 100%;
+  background-color: #00050d;
+  margin: 0;
+  border-width: 0;
+  */
