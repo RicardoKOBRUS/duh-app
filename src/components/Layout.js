@@ -22,10 +22,16 @@ const Layout = () => {
 
   return (
     <div className="StreamList">
+      <div className="CG-marquee">
+        <p className="CG-marquee-box">CG StreamList</p>
+       <img src={CGpick} className="CG-marquee-image" alt='CG pick icon image'></img> 
+      </div>
+
       <nav>
         <table className="App-divcontainer">
-          <td> <Link to="/" className="CGsl-button">  {"  CG StreamList   "} </Link></td>
+          <td> <Link to="/" className="CGsl-button">  {"  MyList   "} </Link></td>
           <td><Link to="/movies" className="CGsl-button">  {"  movies   "} </Link></td>
+          
           <td><Link to="/cart" className="CGsl-button">  {"  cart  "} </Link></td>
           <td><Link to="/about" className="CGsl-button">  {"  about   "} </Link></td>
           
@@ -34,24 +40,6 @@ const Layout = () => {
       </nav>
 
       <Outlet />
-
-      
-
-      <div className="stream-list">      
-        <input
-          type="text"
-          value={movie}
-          onChange={handleChange}
-          placeholder="Enter a movie or program"
-        />
-        <button onClick={handleAddMovie}>Add to List</button>
-        <h3>Your List</h3>
-        <ul>
-          {movieList.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
     </div>
   )
 };
@@ -60,3 +48,4 @@ export default Layout;
 
 
 
+// <td><Link to="/TMDBTemplate" className="CGsl-button">  {"  TMDBTemplate   "} </Link></td>

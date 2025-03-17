@@ -21,8 +21,22 @@ function StreamList() {
   return (
     
     <div className="CGsl-paragraph">
-      <h1>StreamList - Your Personalized Movie List</h1>
-      <img src={CGpick} alt='CG pick icon image'></img>
+
+      <div className="streamlist">      
+        <input
+          type="text"
+          value={movie}
+          onChange={handleChange}
+          placeholder="Enter a movie or program"
+        />
+        <button onClick={handleAddMovie}>Add to List</button>
+        <ul>
+          {movieList.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div>
+
       
     </div>
 

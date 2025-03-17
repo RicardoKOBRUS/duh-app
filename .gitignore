@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.rk1
+duh.txt
+duh-app.code-workspace
