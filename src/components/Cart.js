@@ -4,7 +4,7 @@ import React from 'react';
 function Cart() {
   return (
     <div>
-      <h2>Cart Page </h2>
+      <h2>Cart Page 3/17/25 EOD </h2>
       <p>This page will be built in Week 4.</p>
     </div>
   );
