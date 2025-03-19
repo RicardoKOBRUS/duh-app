@@ -24,7 +24,7 @@ const Layout = () => {
     <div className="StreamList">
       <div className="CG-marquee">
         <p className="CG-marquee-box">CG StreamList</p>
-       <img src={CGpick} className="CG-marquee-image" alt='CG pick icon image'></img> 
+       <img src={CGpick} className="CG-marquee-image" ></img> 
       </div>
 
       <nav>
