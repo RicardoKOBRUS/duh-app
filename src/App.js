@@ -9,11 +9,11 @@ import MyAboutPage from './components/About';
 import NoPage from "./components/NoPage";
 
 import './App.css';
-import Navbar from './components/Navbar';
-import ProductList from './components/ProductList';
-import CreditCardForm from './components/CreditCardForm';
-import OrderConfirmation from './components/OrderConfirmation';
-import Login from './components/Login';
+// import Navbar from './components/Navbar';
+// import ProductList from './components/ProductList';
+// import CreditCardForm from './components/CreditCardForm';
+// import OrderConfirmation from './components/OrderConfirmation';
+// import Login from './components/Login';
 
 
 const App = () => {
