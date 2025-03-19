@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CGpick from "../images/CGpick.png";
+//import CGpick from "../images/CGpick.png";
 
 function StreamList() {
 
